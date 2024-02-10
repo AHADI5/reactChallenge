@@ -1,0 +1,70 @@
+@media screen  and (min-width : 412px) {
+   
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    }
+    body {
+        background-color:  #1A1B21;
+    }
+    .profile--container {
+        height: 700px;
+        background-image: url(./images/profile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .informations {
+        margin-top: 50px;
+        color: white;
+    }
+
+    .informations > .information--text {
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+    }
+
+    
+    .informations > .information--text > h1{
+        font-weight: 900;
+        font-size: 60px;
+        letter-spacing: 0.2rem;
+    
+    }
+    .informations > .information--text > p{
+        margin-top: 10px;
+        font-size: 35px;
+    
+    }
+
+    .actions {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .actions  .buttons   {
+       display: flex;
+       justify-content: space-around;
+       gap: 30px;
+       margin-top: 30px;
+        
+    }
+
+    .actions  .buttons button  {
+        padding: 20px;
+        width: 350px;
+        font-size: 35px;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        
+    }
+    .actions  .buttons .linkedin  { 
+        background: #5093E2;
+        color: white
+    }
+}

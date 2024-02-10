@@ -1,16 +1,20 @@
-import About from "./components/About";
-import Info from "./components/Info";
-import Interests from "./components/Interests";
 import Profile from "./components/Profile";
-import React from "react";
+import Info from "./components/Info";
+import Buttons from "./components/Buttons";
+import About from "./components/About";
+import Interests from "./components/Interests";
+import "./App.css"
 
 export default function App  () {
     return (
         <div className="app-container">
             <Profile/>
             <Info/>
-            <About/>
-            <Interests/>
+            <Buttons/>
+           <div className="about-in"> 
+                    <About/>
+                    <Interests/>
+           </div>
         </div>
     )
 }
