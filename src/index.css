@@ -96,16 +96,21 @@
 
   .contacts {
     display: flex;
+    background-color: #161619;
     justify-content: center;
+    height: 8vh;
     margin-top: 60px;
     padding-left: 90px;
     padding-right: 90px;
-    gap: 20px;
+    gap: 45px;
     padding: 20px;
+    margin-bottom: 0;
+  
   }
 
   .contacts img  {
     width: 70px;
+    
   }
 
 }
