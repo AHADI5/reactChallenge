@@ -3,7 +3,8 @@ import Info from "./components/Info";
 import Buttons from "./components/Buttons";
 import About from "./components/About";
 import Interests from "./components/Interests";
-import "./App.css"
+import Contacts from "./components/Contacts";
+import "./App.css";
 
 export default function App  () {
     return (
@@ -11,10 +12,14 @@ export default function App  () {
             <Profile/>
             <Info/>
             <Buttons/>
-           <div className="about-in"> 
-                    <About/>
-                    <Interests/>
-           </div>
+            <div className="about-content">
+                <About/>
+            </div>
+            <div className="interest-content">
+                <Interests/>
+            </div>
+            <Contacts/>
+          
         </div>
     )
 }
